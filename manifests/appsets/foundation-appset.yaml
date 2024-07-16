@@ -30,7 +30,7 @@ spec:
         generators:
           # git generator, 'child' #1
           - git:
-              repoURL: https://github.com/rljohnsn/argocd-bootstrap.git
+              repoURL: https://github.com/shankar-bala/argocd-bootstrap.git
               revision: main
               files:
                 - path: "applications/foundation/*.yaml"
